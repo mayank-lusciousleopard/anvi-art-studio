@@ -1,0 +1,37 @@
+{%- if settings.promotion_btn1_text != blank or settings.promotion_demo_html != blank -%}
+	<div class=theme-demos>
+		<div class="demo-button-wrapper">
+			{%- if settings.promotion_btn2_icone_class != blank -%}
+				<div class=buy-theme>
+					<a href="{{ settings.promotion_btn2_link | default: '#' }}" target=_blank>
+						{%- if settings.promotion_btn2_icone_class contains 'svg' -%}
+							{{ settings.promotion_btn2_icone_class }}
+						{%- else -%}
+							<i class="align-middle {{ settings.promotion_btn2_icone_class }}"></i>
+						{%- endif -%}
+						<div class=theme-wrapper>
+							<div></div>
+						</div>
+					</a>
+				</div> 
+			{%- endif -%}
+			{%- if settings.promotion_btn1_text != blank -%}
+				<div class=all-demo>
+					<div class=theme-wrapper>
+						<div>									
+							{{ settings.promotion_btn1_text }}
+						</div>
+					</div>
+				</div>
+			{%- endif -%}			
+		</div>
+		<div class="demo-close-icon d-flex justify-content-center align-items-center">
+			<i class="feather-x"></i>
+		</div>
+		{%- if settings.promotion_demo_html != blank -%}
+			<div class=demos-wrapper>
+				{{ settings.promotion_demo_html }}
+			</div>
+		{%- endif -%}
+	</div>
+{%- endif -%}

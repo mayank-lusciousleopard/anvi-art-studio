@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container_type": "container",
+        "banner_title_size": "h-3",
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "title_uppercase": false,
+        "border_top": true,
+        "border_bottom": false,
+        "show_mobile": true
+      }
+    },
+    "main": {
+      "type": "page-brands",
+      "settings": {
+        "container_type": "container-fluid",
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

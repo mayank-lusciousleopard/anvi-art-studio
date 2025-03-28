@@ -1,0 +1,300 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-1",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": false,
+        "description_width": 50,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": "rgba(0,0,0,0)",
+        "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-25T185504.930.png"
+      }
+    },
+    "166418931622087beb": {
+      "type": "addresses",
+      "blocks": {
+        "1664189315b9191548-0": {
+          "type": "content-block",
+          "settings": {
+            "icon_class": "feather-map-pin",
+            "title": "Office Location",
+            "content": "Saanjh Towers, Angul, Odisha"
+          }
+        },
+        "1664189315b9191548-1": {
+          "type": "content-block",
+          "settings": {
+            "icon_class": "feather-mail",
+            "title": "Send a message",
+            "content": "<div><a href=\"mailto:support@anviartstudio.com\">support@anviartstudio.com<\/a><\/div>"
+          }
+        },
+        "1664189315b9191548-2": {
+          "type": "content-block",
+          "settings": {
+            "icon_class": "feather-phone-outgoing",
+            "title": "Call Us Directly",
+            "content": "<div>Phone: <a href=\"tel:+918447347828\">844-734-7828<\/a>\n<\/div>"
+          }
+        },
+        "1664189315b9191548-3": {
+          "type": "content-block",
+          "disabled": true,
+          "settings": {
+            "icon_class": "feather-users",
+            "title": "Join our team",
+            "content": "<div><a href=\"mailto:hire@yourdomain.com\">hire@yourdomain.com<\/a><\/div>\n<div><a href=\"mailto:hr@yourdomain.com\">hr@yourdomain.com<\/a><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1664189315b9191548-0",
+        "1664189315b9191548-1",
+        "1664189315b9191548-2",
+        "1664189315b9191548-3"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "per_row_contact_box_desktop": 3,
+        "per_row_contact_box_mini_desktop": 3,
+        "per_row_contact_box_tablet": 2,
+        "per_row_contact_box_mobile": 1,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "1634202562662e04bc": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "map_height": "extra-large-screen",
+        "latitude": "-37.817240",
+        "longitude": "144.955820",
+        "style": "silver",
+        "zoom": 13,
+        "marker_type": "image",
+        "marker_image": "shopify:\/\/shop_images\/image_-_2025-02-25T190045.033.png",
+        "infowindow_html": "<div class=\"infowindow\">\n<strong class=\"title d-inline-block alt-font\">Hongo store<\/strong><p>16122 Collins street, Melbourne, Australia<\/p>\n<\/div><div class=\"google-maps-link alt-font\"> <a aria-label=\"View larger map\" target=\"_blank\" jstcache=\"31\" href=\"https:\/\/maps.google.com\/maps?ll=-37.81721,144.955928&z=13&t=m&hl=en-US&gl=IN&mapclient=embed&cid=13153204942596594449\" jsaction=\"mouseup:placeCard.largerMap\">VIEW LARGER MAP<\/a>\n<\/div>",
+        "infowindow_default_open": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "#262626",
+        "section_sub_heading_color": "#262626",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": "contact-map"
+      }
+    },
+    "banner_image_AijRNR": {
+      "type": "banner-image",
+      "blocks": {
+        "banner_image_WbRgJ6": {
+          "type": "banner_image",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/image_-_2025-02-25T190045.033.png",
+            "banner_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner_image_WbRgJ6"
+      ],
+      "settings": {
+        "container_type": "container",
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "section_show": true,
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "1664197081db75c9f7": {
+      "type": "contact-form",
+      "settings": {
+        "container_type": "container",
+        "title": "",
+        "sub_title": "",
+        "show_icon": false,
+        "show_social_icon": false,
+        "social_type": "social-icon-with-text",
+        "social_style": "dark",
+        "social_title": "Follow us :",
+        "block_column_width": "6",
+        "title_fontsize": 45,
+        "title_lineheight": 55,
+        "subtitle_fontsize": 20,
+        "subtitle_lineheight": 30,
+        "form_bg": "shopify:\/\/shop_images\/image_-_2025-02-25T190814.197.png",
+        "image_column_width": "6",
+        "show_form": true,
+        "form_title": "Let’s talk about you",
+        "form_sub_title": "",
+        "show_button_text": false,
+        "show_button_arrrow": false,
+        "show_form_lable": false,
+        "content_column_width": "6",
+        "form_title_fontsize": 45,
+        "form_title_lineheight": 45,
+        "form_subtitle_fontsize": 14,
+        "form_subtitle_lineheight": 24,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "icon_with_text_fBPctf": {
+      "type": "icon-with-text",
+      "blocks": {
+        "item_E4HanA": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125217.746.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Proudly Made In India",
+            "box_sub_heading": "<p>Handcrafted In India For the World<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_FKJNW9": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125241.988.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Trusted By Customers",
+            "box_sub_heading": "<p>Thousands of Happy Customers Worldwide<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_DrF9FH": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125316.632.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Easy Returns",
+            "box_sub_heading": "<p>Easy 7 Days Return Policy<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_hpG4Rm": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T185127.363.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "24 \/ 7 Support",
+            "box_sub_heading": "<p>Dedicated support<\/p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_E4HanA",
+        "item_FKJNW9",
+        "item_DrF9FH",
+        "item_hpG4Rm"
+      ],
+      "custom_css": [
+        ".featurebox .feature-box-title {font-weight: 600;}",
+        ".featurebox .feature-box-sub-title p {font-size: 13px;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 75,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 4,
+        "icon_limit_tablet": 3,
+        "icon_limit_mobile": 2,
+        "icon_color": "",
+        "text_color": "#000000",
+        "small_text_color": "#484848",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "166418931622087beb",
+    "1634202562662e04bc",
+    "banner_image_AijRNR",
+    "1664197081db75c9f7",
+    "icon_with_text_fBPctf"
+  ]
+}

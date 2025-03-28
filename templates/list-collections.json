@@ -1,0 +1,86 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-1",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": true,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": "#666e59",
+        "banner_image": "shopify:\/\/shop_images\/demo-decor-page-title-bg-01.jpg"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "507e9a52-8636-4e05-9b0a-849d48302c7d": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "living-room"
+          }
+        },
+        "7e29315b-220a-47e7-b336-892e5296c57d": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "modern-painting"
+          }
+        },
+        "5fe075a0-2077-4e04-9a6e-0f1606242fae": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "clay-pots"
+          }
+        },
+        "41aa28d6-ae8e-4739-bf2a-5de026516225": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "classic-table"
+          }
+        },
+        "12fd99f3-8040-417e-9275-4d68f8b06511": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "home-office"
+          }
+        },
+        "bee13a04-d543-4c79-9b6c-b8f5fceef4cf": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "plants-flowers"
+          }
+        }
+      },
+      "block_order": [
+        "507e9a52-8636-4e05-9b0a-849d48302c7d",
+        "7e29315b-220a-47e7-b336-892e5296c57d",
+        "5fe075a0-2077-4e04-9a6e-0f1606242fae",
+        "41aa28d6-ae8e-4739-bf2a-5de026516225",
+        "12fd99f3-8040-417e-9275-4d68f8b06511",
+        "bee13a04-d543-4c79-9b6c-b8f5fceef4cf"
+      ],
+      "settings": {
+        "container_type": "container",
+        "collection_show_type": "selected",
+        "sort": "date",
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "main"
+  ]
+}

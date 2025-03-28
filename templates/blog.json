@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container_type": "container",
+        "show_mobile": true,
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "border_top": true,
+        "border_bottom": false
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "b6f38748-31c8-4009-8792-4e9bd7cd5a99": {
+          "type": "categories",
+          "settings": {
+            "title": "Categories",
+            "category_menu": "blog-category"
+          }
+        },
+        "3ef7772e-4466-4031-adaf-bc03cc80395b": {
+          "type": "recent-post",
+          "settings": {
+            "title": "Recent post",
+            "recent_post": "decor",
+            "post_limit": 3,
+            "blog_show_date": true,
+            "blog_show_author": false,
+            "blog_show_excerpt": false,
+            "blog_show_tags": false,
+            "truncate_excerpt": true,
+            "truncate_word": "8"
+          }
+        },
+        "c56ab54e-01c8-4df3-90b6-257a41f2a7f6": {
+          "type": "tags",
+          "settings": {
+            "title": "Tags cloud"
+          }
+        },
+        "c4e68c56-2500-4af3-81e2-3b5f5cc51684": {
+          "type": "instagram",
+          "settings": {
+            "title": "Instagram",
+            "count": 6
+          }
+        }
+      },
+      "block_order": [
+        "b6f38748-31c8-4009-8792-4e9bd7cd5a99",
+        "3ef7772e-4466-4031-adaf-bc03cc80395b",
+        "c56ab54e-01c8-4df3-90b6-257a41f2a7f6",
+        "c4e68c56-2500-4af3-81e2-3b5f5cc51684"
+      ],
+      "settings": {
+        "container_type": "container",
+        "show_sidebar": false,
+        "sidebar_placement": "right-column",
+        "post_limit_desktop": 4,
+        "post_limit_mini_desktop": 3,
+        "post_limit_tablet": 2,
+        "post_limit_mobile": 1,
+        "post_limit": 12,
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

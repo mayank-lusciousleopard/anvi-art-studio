@@ -1,0 +1,671 @@
+{
+  "sections": {
+    "1643711855bc4aea40": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "banner_title_size": "h-3",
+        "content_alignment": "start",
+        "show_pagetitle": false,
+        "title_uppercase": false,
+        "border_top": true,
+        "border_bottom": false,
+        "hide_breadcrumb": true,
+        "show_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2c4c2e34-acdb-4c1f-a4a8-3391aa6523ed": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "hide_price": true,
+            "hide_ratings": true,
+            "hide_sku": true,
+            "show_save_label": true,
+            "show_stock_label": true
+          }
+        },
+        "judge_me_reviews_preview_badge_a7kJaj": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "d1eecc55-37d1-457b-a2a0-73576c45f0c7": {
+          "type": "short_description",
+          "settings": {
+            "liquid_code": "{{product.metafields.custom.short_description}}",
+            "liquid_csssode": ""
+          }
+        },
+        "81229d02-3ee9-4dec-ae0f-58c97356e659": {
+          "type": "product_deal",
+          "settings": {}
+        },
+        "0689be55-a76a-49f2-96fa-3e40482179f8": {
+          "type": "live-visitors",
+          "settings": {
+            "visitors_text": "[visitors] people are viewing this right now.",
+            "visitors": 150,
+            "visitors_time": 10
+          }
+        },
+        "0c18cfc7-6f8c-4100-9df4-3ec4a3cb4bae": {
+          "type": "sold-product",
+          "settings": {
+            "from_sold_number": 10,
+            "to_sold_number": 100,
+            "from_sold_time": 10,
+            "to_sold_time": 24
+          }
+        },
+        "c2463fbc-fe64-4ef3-9871-7b5242b3c6df": {
+          "type": "stock-left",
+          "settings": {
+            "countdown_number": "custom-range",
+            "from_number": 10,
+            "to_number": 50
+          }
+        },
+        "f8b39bf6-9d10-4a8c-b5c7-8251a79b73db": {
+          "type": "colum-devider",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_size_guide": true,
+            "size_guide_option_label": "Size",
+            "size_guide_button_text": "Size guide",
+            "size_guide_type": "common_product",
+            "size_guide_content": "<table class=\"table-style-1\">\n          <tbody>\n              <tr>\n                  <th class=\"alt-font bg-dark-gray text-white\">SIZE<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">S<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">M<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">L<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">XL<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">XXL<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">2XL<\/th>\n                  <th class=\"alt-font bg-dark-gray text-white\">3XL<\/th>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-white border-color-very-light-gray\">Collar<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">14<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">15<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">16<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">17<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">18<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">19<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">20<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-very-light-gray border-color-very-light-gray\">Shoulder<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">16<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">17<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">18<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">19<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">20<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">21<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">22<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-white border-color-very-light-gray\">Chest, waist, hips<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">28-29<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">30-31<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">32-33<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">34-35<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">36-37<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">38-39<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">40-41<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-very-light-gray border-color-very-light-gray\">Cuff<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">9<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">9.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">10<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">10.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">11<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">11.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">12<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-white border-color-very-light-gray\">Short-sleeve length<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">10<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">10.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">11<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">11.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">12<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">12.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">13<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-very-light-gray border-color-very-light-gray\">Long-sleeve length<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">23<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">23.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">24<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">24.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">25<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">25.5<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">26<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-white border-color-very-light-gray\">Arm Hole<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">22<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">22.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">32<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">23.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">24<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">24.5<\/td>\n                  <td class=\"text-dark-gray bg-white border-color-very-light-gray\">25<\/td>\n              <\/tr>\n              <tr>\n                  <td class=\"alt-font text-dark-gray bg-very-light-gray border-color-very-light-gray\">Back length<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">30<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">32<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">34<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">36<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">38<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">40<\/td>\n                  <td class=\"text-dark-gray bg-very-light-gray border-color-very-light-gray\">42<\/td>\n              <\/tr>\n          <\/tbody>\n      <\/table>",
+            "product_wise_content": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_qty": true,
+            "show_add_to_cart": true,
+            "show_wishlist": true,
+            "show_dynamic_checkout": true,
+            "collect_back_in_stock": true,
+            "back-in-stock-title": "Notify me when this is in stock",
+            "back-in-stock-subheading": "We will send you a notification as soon as this product is available again.",
+            "back_in_icon_name": "bi bi-patch-check-fill",
+            "back-in-stock-text": "It will be in stock after"
+          }
+        },
+        "61d3394c-f64e-49ec-a0db-31caf6818cb9": {
+          "type": "addon-buttons",
+          "settings": {
+            "show_compare": true,
+            "show_question": true,
+            "show_social_share": true
+          }
+        },
+        "3495ff7f-ce11-468a-bf1e-0906383597b6": {
+          "type": "trust-badge",
+          "disabled": true,
+          "settings": {
+            "trust_badge_width": 310,
+            "trust_badge_text": "<p>Guarantee safe and secure checkout<\/p>",
+            "trust_badge_position": "flex-column",
+            "text_alignment": "start"
+          }
+        },
+        "6ee4513c-5ecd-4f3a-bc57-de58bfde1600": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "Estimated delivery:",
+            "deliver_days": "10",
+            "show_shipping_text": true,
+            "shipping_text": "<p>Free return within <strong>7 days<\/strong> of delivery.<\/p>"
+          }
+        },
+        "781b26ef-21f0-4f78-9d05-92cf7c6a6a17": {
+          "type": "product-usp",
+          "disabled": true,
+          "settings": {
+            "icon_class1": "bi bi-truck",
+            "usp_text1": "Free shipping and return",
+            "usp_link1": "",
+            "icon_class2": "bi bi-chat-text",
+            "usp_text2": "Reliable support",
+            "usp_link2": "",
+            "usp_alignment": "start"
+          }
+        },
+        "ee300d70-c810-40be-8314-09324780f538": {
+          "type": "product-meta",
+          "disabled": true,
+          "settings": {
+            "hide_category": true,
+            "hide_tags": true
+          }
+        }
+      },
+      "block_order": [
+        "2c4c2e34-acdb-4c1f-a4a8-3391aa6523ed",
+        "subtitle",
+        "title",
+        "judge_me_reviews_preview_badge_a7kJaj",
+        "d1eecc55-37d1-457b-a2a0-73576c45f0c7",
+        "81229d02-3ee9-4dec-ae0f-58c97356e659",
+        "0689be55-a76a-49f2-96fa-3e40482179f8",
+        "0c18cfc7-6f8c-4100-9df4-3ec4a3cb4bae",
+        "c2463fbc-fe64-4ef3-9871-7b5242b3c6df",
+        "f8b39bf6-9d10-4a8c-b5c7-8251a79b73db",
+        "variant_picker",
+        "buy_buttons",
+        "61d3394c-f64e-49ec-a0db-31caf6818cb9",
+        "3495ff7f-ce11-468a-bf1e-0906383597b6",
+        "6ee4513c-5ecd-4f3a-bc57-de58bfde1600",
+        "781b26ef-21f0-4f78-9d05-92cf7c6a6a17",
+        "ee300d70-c810-40be-8314-09324780f538"
+      ],
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "product_page_style": "style-2",
+        "show_content_container": true,
+        "collapsible_design": "accordion",
+        "product_gellery": "grid-2-columns",
+        "enable_variant_group": false,
+        "enable_video_autoplay": false,
+        "show_border": false,
+        "image_border_radius": 0,
+        "zoom_enabled": false,
+        "show_thumb_slider": true,
+        "thumb_slider_placement": "left",
+        "gutter_size": "gutter-medium",
+        "sticky_cart_desktop": false,
+        "sticky_cart_mobile": false,
+        "show_dynamic_checkout_btn": true,
+        "show_sticky_wishlist": true,
+        "show_compare": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "element_id": "",
+        "element_class": ""
+      }
+    },
+    "bought-together": {
+      "type": "bought-together",
+      "settings": {
+        "container_type": "container",
+        "heading": "Frequently bought together",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "discount_description": "{% assign discount-rate = product.metafields.custom.bundle_discount_rate %}\nGet a {{ discount-rate }}% discount buying these products together",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "product-tabs": {
+      "type": "product-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "heading": "Product description"
+          }
+        },
+        "additional_information": {
+          "type": "liquid",
+          "settings": {
+            "heading": "Additional information",
+            "tab_content": "<table class=\"table additional-information\">\n    <tbody>\n        {%- if product.title != blank -%}\n        <tr><th>Name<\/th><td>{{ product.title }}<\/td><\/tr>\n        {%- endif -%}\n        {%- assign first_variant = product.selected_or_first_available_variant -%}\n          <tr><th>SKU<\/th><td>{{ first_variant.sku }}<\/td><\/tr>\n        {%- if product.vendor != blank -%}\n        <tr><th>Vendor<\/th><td>{{ product.vendor }}<\/td><\/tr>\n        {%- endif -%}\n        {%- if product.metafields.descriptors.subtitle.value != blank -%}\n        <tr><th>Subtitle<\/th><td> {{ product.metafields.descriptors.subtitle.value }} <\/td><\/tr>\n        {%- endif -%}\n        {%- for product_option in product.options_with_values -%}\n            <tr>\n              <th>{{ product_option.name }}<\/th>\n              <td>\n                {%- for option_value in product_option.values -%}\n                  {{ option_value }}{% if forloop.last == false %}, {% endif %}\n                {%- endfor -%}\n              <\/td>\n            <\/tr>\n        {%- endfor -%}\n    <\/tbody>\n<\/table>"
+          }
+        },
+        "0c706291-06fb-4980-8270-bfb7b6c922c0": {
+          "type": "custom",
+          "settings": {
+            "heading": "Shipping Policy",
+            "tab_content": "<div class=\"rte\" bis_skin_checked=\"1\">\n        <p><strong>Shipping policy <br><\/strong>We can ship our products all over India. Note that there are restrictions on some products, and some products cannot be shipped to all destinations. All orders are shipped within 3-4 days of order placement.<\/p>\n<p>In case multiple orders of goods and services are placed in one single transaction, We will make all possible attempts to deliver them all in a single package. However, this might not be possible always due to some particularly different characteristics of all products. If you are placing multiple product orders in a single transaction, all the products will be delivered to only one shipping address provided by you. For getting the goods delivered to separate shipping addresses, you will be required to place different and separate orders with specific delivery addresses.<\/p>\n<p><strong>Delivery Charges<br><\/strong><span style=\"font-size:0.875rem;\">Anvi Art Studio provides free of cost delivery of all the products to your doorstep. No minimum order <\/span>amount is required to be fulfilled to claim this.<\/p>\n<p><strong>Delivery Time<br><\/strong>The duration of delivering the order is based on the product type. Our art studio takes a window of 6 - 15 days for delivering the products, 90% of all deliveries are made within 6 - 8 days of order placement. Custom Handmade art may take longer time to deliver.<\/p>\n<p>We are committed to dispatching and delivering your order as early as possible, all products are shipped within 2 business days.<\/p>\n<p><strong>Order Tracking:<br><\/strong>To track the delivery of your order, you just need to visit the ‘Track My Shipment' section and check with your order details, Or you can open the link in the email you receive just after placing the order.<\/p>\n<p>Online tracking generally activates within 24 hours post-shipping.<\/p>\n    <\/div>",
+            "content_page": ""
+          }
+        },
+        "reviews": {
+          "type": "reviews",
+          "settings": {
+            "heading": "Product reviews",
+            "custom_liquid": "<!-- Start of Judge.me code --><div style='clear:both'><\/div><div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-auto-install='false'>{{ product.metafields.judgeme.widget }}<\/div><!-- End of Judge.me code -->"
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "additional_information",
+        "0c706291-06fb-4980-8270-bfb7b6c922c0",
+        "reviews"
+      ],
+      "settings": {
+        "container_type": "container",
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "element_id": "",
+        "element_class": ""
+      }
+    },
+    "product-related": {
+      "type": "product-related",
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "heading": "Popular products",
+        "sub_heading": "PEOPLE ALSO LOVE",
+        "description": "",
+        "title_style": "style-1",
+        "products_to_show": 16,
+        "slide_per_view_desktop": 4,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "navigation": true,
+        "autoplay": true,
+        "loop": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "product-upsell": {
+      "type": "product-upsell",
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "heading": "Customers also viewed",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "products_to_show": 16,
+        "slide_per_view_desktop": 4,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "navigation": true,
+        "autoplay": true,
+        "loop": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "testimonial_with_banner_yMPAfM": {
+      "type": "testimonial-with-banner",
+      "blocks": {
+        "testimonial_item_xiECDr": {
+          "type": "testimonial-item",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-27T124706.914.png",
+            "rating": 5,
+            "descripition": "hese artworks transformed my space beautifully. So unique and elegant",
+            "author_name": "— Rahul S.",
+            "designation": "Art Collector"
+          }
+        },
+        "testimonial_item_pxmJTC": {
+          "type": "testimonial-item",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-27T124706.914.png",
+            "rating": 5,
+            "descripition": "I absolutely love my new wall art! It has transformed my living room.",
+            "author_name": "— Emma R.",
+            "designation": "Art Collector"
+          }
+        },
+        "testimonial_item_iawxwT": {
+          "type": "testimonial-item",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-27T124706.914.png",
+            "rating": 5,
+            "descripition": "The quality exceeded my expectations! Will buy again.",
+            "author_name": "— John D.",
+            "designation": "Art Collector"
+          }
+        },
+        "testimonial_item_48LV96": {
+          "type": "testimonial-item",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-27T124706.914.png",
+            "rating": 5,
+            "descripition": "Exceptional quality—these prints exceeded my expectations",
+            "author_name": "— Arjun K.",
+            "designation": "Art Collector"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_item_xiECDr",
+        "testimonial_item_pxmJTC",
+        "testimonial_item_iawxwT",
+        "testimonial_item_48LV96"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "right_image": false,
+        "slider_text_alignment": "start",
+        "pagination": false,
+        "show_magic_cursor": true,
+        "magic_cursor_color_scheme": "base",
+        "navigation": true,
+        "navigation_color": "",
+        "navigation_bg_color": "",
+        "navigation_border_color": "",
+        "navigation_hover_color": "",
+        "navigation_bg_hover_color": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "settings": {
+        "container_type": "container",
+        "heading": "Recently Viewed",
+        "sub_heading": "Take Another Look",
+        "description": "",
+        "title_style": "style-1",
+        "slide_per_view_desktop": 4,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "autoplay": true,
+        "navigation": false,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "very-small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "deal_of_the_day_LetaAe": {
+      "type": "deal-of-the-day",
+      "custom_css": [
+        ".section-bg {background-size: cover;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "show_content_container": true,
+        "deal_of_the_day_style": "style-1",
+        "countdown_heading": "Today’s Special Offer!",
+        "countdown_sub_heading": "GET 10% OFF ON YOUR FIRST ORDER",
+        "countdown_description": "",
+        "show_countdown": false,
+        "timer_date": "2023\/12\/15",
+        "timer_time": "12:00:00",
+        "timer_color": "",
+        "timer_label_color": "",
+        "timer_separator_color": "",
+        "content_alignment": "center",
+        "button_style": "btn-white",
+        "button_size": "btn-large",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "feather-arrow-right order-2 right-icon",
+        "icon_position": "right-icon",
+        "btn_text": "Shop the Collection",
+        "btn_link": "\/",
+        "use_default_section_typography": false,
+        "section_heading_size": 65,
+        "heading_line_height": 55,
+        "sub_heading_size": 15,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 2,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_image": "shopify:\/\/shop_images\/image_-_2025-02-27T125506.507.png",
+        "background_position": "cover-background",
+        "section_bg_color": "#595757",
+        "section_gradient": "",
+        "section_heading_color": "#ffffff",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "shop_banner_rKHCKy": {
+      "type": "shop-banner",
+      "custom_css": [
+        ".rotate-text {border-bottom: none;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-27T125937.913.png",
+        "title": "Indian Wall Art",
+        "rotate_text": "DESIGNER COLLECTION",
+        "content": "A mesmerizing Indian wall art piece that beautifully blends heritage with movement, capturing the essence of culture, rhythm, and timeless artistry.",
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "feather-arrow-right order-2 right-icon",
+        "icon_position": "right-icon",
+        "btn_text": "Explore Collection",
+        "btn_link": "shopify:\/\/collections\/indian-art",
+        "use_default_section_typography": false,
+        "section_heading_size": 55,
+        "heading_line_height": 55,
+        "sub_heading_size": 15,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 1,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "icon_with_text_6pxEWy": {
+      "type": "icon-with-text",
+      "blocks": {
+        "item_crcMTV": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125217.746.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Proudly Made In India",
+            "box_sub_heading": "<p>Handcrafted In India For the World<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_3jaqah": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125241.988.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Trusted By Customers",
+            "box_sub_heading": "<p>Thousands of Happy Customers Worldwide<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_A4JFFC": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125316.632.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Easy Returns",
+            "box_sub_heading": "<p>Easy 7 Days Return Policy<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_hRh3rp": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T185127.363.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "24 \/ 7 Support",
+            "box_sub_heading": "<p>Dedicated support<\/p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_crcMTV",
+        "item_3jaqah",
+        "item_A4JFFC",
+        "item_hRh3rp"
+      ],
+      "custom_css": [
+        ".featurebox .feature-box-title {font-weight: 600;}",
+        ".featurebox .feature-box-sub-title p {font-size: 13px;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 75,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 4,
+        "icon_limit_tablet": 3,
+        "icon_limit_mobile": 2,
+        "icon_color": "",
+        "text_color": "#000000",
+        "small_text_color": "#484848",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "#f4f4f4",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "1643711855bc4aea40",
+    "main",
+    "bought-together",
+    "product-tabs",
+    "product-related",
+    "product-upsell",
+    "testimonial_with_banner_yMPAfM",
+    "recent-viewed-products",
+    "deal_of_the_day_LetaAe",
+    "shop_banner_rKHCKy",
+    "icon_with_text_6pxEWy"
+  ]
+}

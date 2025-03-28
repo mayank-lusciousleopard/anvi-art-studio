@@ -1,0 +1,281 @@
+{%- comment -%}
+  /* Shopify font-face */
+{%- endcomment -%}
+{%- liquid
+  assign body_shopify_font = settings.body_shopify_font 
+  assign body_google_font = settings.body_google_fonts
+  assign alt_shopify_font = settings.alt_shopify_font
+  assign alt_google_font = settings.alt_google_fonts
+  assign font_size = settings.body_font_size
+  if settings.use_body_font == 'shopify'
+    assign body_font_100 = settings.body_shopify_font | font_modify: 'weight', '100'
+    assign body_font_200 = settings.body_shopify_font | font_modify: 'weight', '200'
+    assign body_font_300 = settings.body_shopify_font | font_modify: 'weight', '300'
+    assign body_font_400 = settings.body_shopify_font | font_modify: 'weight', '400'
+    assign body_font_500 = settings.body_shopify_font | font_modify: 'weight', '500'
+    assign body_font_600 = settings.body_shopify_font | font_modify: 'weight', '600'
+    assign body_font_700 = settings.body_shopify_font | font_modify: 'weight', '700'
+    assign body_font_800 = settings.body_shopify_font | font_modify: 'weight', '800'
+    assign body_font_900 = settings.body_shopify_font | font_modify: 'weight', '900'
+  endif
+  if settings.use_alt_font == 'shopify'
+    assign alt_body_font_100 = settings.alt_shopify_font | font_modify: 'weight', '100'
+    assign alt_body_font_200 = settings.alt_shopify_font | font_modify: 'weight', '200'
+    assign alt_body_font_300 = settings.alt_shopify_font | font_modify: 'weight', '300'
+    assign alt_body_font_400 = settings.alt_shopify_font | font_modify: 'weight', '400'
+    assign alt_body_font_500 = settings.alt_shopify_font | font_modify: 'weight', '500'
+    assign alt_body_font_600 = settings.alt_shopify_font | font_modify: 'weight', '600'
+    assign alt_body_font_700 = settings.alt_shopify_font | font_modify: 'weight', '700'
+    assign alt_body_font_800 = settings.alt_shopify_font | font_modify: 'weight', '800'
+    assign alt_body_font_900 = settings.alt_shopify_font | font_modify: 'weight', '900'
+  endif
+-%}
+{%- style -%}
+  {%- if settings.use_body_font == 'shopify' -%}
+    {%- comment -%}
+      /* Body font face */
+    {%- endcomment -%}
+    {{ body_font_100 | font_face: font_display: 'swap' }}
+    {{ body_font_200 | font_face: font_display: 'swap' }}
+    {{ body_font_300 | font_face: font_display: 'swap' }}
+    {{ body_font_400 | font_face: font_display: 'swap' }}
+    {{ body_font_500 | font_face: font_display: 'swap' }}
+    {{ body_font_600 | font_face: font_display: 'swap' }}
+    {{ body_font_700 | font_face: font_display: 'swap' }}
+    {{ body_font_800 | font_face: font_display: 'swap' }}
+    {{ body_font_900 | font_face: font_display: 'swap' }}
+  {%- endif -%}
+
+  {%- if settings.use_alt_font == 'shopify' -%}
+    {%- comment -%}
+    /* Alt body font face */
+    {%- endcomment -%}
+    {{ alt_body_font_100 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_200 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_300 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_400 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_500 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_600 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_700 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_800 | font_face: font_display: 'swap' }}
+    {{ alt_body_font_900 | font_face: font_display: 'swap' }}
+  {%- endif -%}
+{%- endstyle -%}
+
+{%- comment -%}
+  /* Google font body & alt font */
+{%- endcomment -%}
+{%- if settings.use_body_font == 'google' or settings.use_alt_font == 'google' -%}
+  {%- if settings.use_body_font == 'google' == settings.use_alt_font == 'google' and settings.body_google_fonts == settings.alt_google_fonts -%}
+    {%- assign body_font_name = settings.body_google_fonts | split: 'family=' | last | split: ':' | first -%}
+    {%- if settings.body_google_fonts contains 'fonts.googleapis.com'  -%}
+      {%- style -%}
+        :root {
+          --body-font: {{- body_font_name -}};
+          --alt-font: {{- body_font_name -}};
+        }
+      {%- endstyle -%}
+      {{- settings.body_google_fonts -}}
+    {%- else -%}
+      <link href="https://fonts.googleapis.com/css?family={{ settings.body_google_fonts }}:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+      {%- style -%}
+      :root {
+          --body-font: {{- body_font_name -}};
+          --alt-font: {{- body_font_name -}};
+        }
+      {%- endstyle -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- if settings.use_body_font == 'google' and settings.body_google_fonts != blank -%}
+      {%- if settings.body_google_fonts contains 'fonts.googleapis.com'  -%}  
+        {%- assign body_font_name = settings.body_google_fonts | split: 'family=' | last | split: ':' | first -%}
+        {%- style -%}
+          :root {
+            --body-font: {{- body_font_name -}};
+          }
+        {%- endstyle -%}
+        {{- settings.body_google_fonts -}}
+      {%- else -%}
+        <link href="https://fonts.googleapis.com/css?family={{ settings.body_google_fonts }}:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        {%- style -%}
+          :root {
+            --body-font: {{- settings.body_google_fonts -}};
+          }
+        {%- endstyle -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- if settings.use_alt_font == 'google' and settings.alt_google_fonts != blank -%}
+      {%- if settings.alt_google_fonts contains 'fonts.googleapis.com'  -%}
+        {%- assign alt_font_name = settings.alt_google_fonts | split: 'family=' | last | split: ':' | first -%}
+        {%- style -%}
+          :root {
+            --alt-font: {{- alt_font_name -}};
+          }
+        {%- endstyle -%}
+        {{- settings.alt_google_fonts -}}
+      {%- else -%}
+        <link href="https://fonts.googleapis.com/css?family={{ settings.alt_google_fonts }}:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        {%- style -%}
+          :root {
+              --alt-font: {{ settings.alt_google_fonts }};
+            }
+        {%- endstyle -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
+  /* Shopify font body & alt font */
+{%- endcomment -%}
+{%- if settings.use_body_font == 'shopify'-%}
+  {%- style -%}
+    :root {
+      --body-font: {{ settings.body_shopify_font.family }}, {{ settings.body_shopify_font.fallback_families }};
+    }
+  {%- endstyle -%}
+{%- endif -%}
+{%- if settings.use_alt_font == 'shopify' -%}
+  {%- style -%}
+    :root {
+      --alt-font: {{ settings.alt_shopify_font.family }}, {{ settings.alt_shopify_font.fallback_families }};     
+    }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- comment -%}
+  /* Adobe font body & alt font */
+{%- endcomment -%}
+{%- assign body_adobe_font_name = settings.body_adobe_font | split: '@' | last -%}
+{%- assign body_adobe_font_url = settings.body_adobe_font | split: '@' | first | remove: '@' -%}
+{%- assign alt_adobe_font_name = settings.alt_adobe_font | split: '@' | last -%}
+{%- assign alt_adobe_font_url = settings.alt_adobe_font | split: '@' | first | remove: '@' -%}
+{%- if settings.use_body_font == 'adobe' or settings.use_alt_font == 'adobe' -%}
+  {%- if settings.use_body_font == 'adobe' and settings.use_alt_font == 'adobe' and settings.body_adobe_font == settings.alt_adobe_font -%}
+    {%- style -%}
+      :root {
+        --body-font: {{ body_adobe_font_name }};
+        --alt-font: {{ body_adobe_font_name }};
+      } 
+    {%- endstyle -%} 
+    <link href="{{ body_adobe_font_url }}" rel="stylesheet">
+  {%- else -%}
+    {%- if settings.use_body_font == 'adobe' -%}
+      {%- style -%}
+        :root {
+          --body-font: {{ body_adobe_font_name }};
+        } 
+      {%- endstyle -%}
+      <link href="{{ body_adobe_font_url }}" rel="stylesheet">
+    {%- endif -%}
+    {%- if settings.use_alt_font == 'adobe' -%}
+      {%- style -%}
+      :root {
+          --alt-font: {{ alt_adobe_font_name }};
+        }
+      {%- endstyle -%}
+      <link href="{{ alt_adobe_font_url }}" rel="stylesheet">
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
+  /* Custom font body & alt font */
+{%- endcomment -%}
+{%- if settings.use_body_font == 'custom' or settings.use_alt_font == 'custom' -%}
+  {%- if settings.use_body_font == 'custom' and settings.use_alt_font == 'custom' and settings.body_custom_font == settings.alt_custom_font -%}
+    {%- assign custom_fonts = settings.body_custom_font | newline_to_br | split: '<br />' -%}
+    {%- for link in custom_fonts -%}
+      {% liquid
+        assign link_data = link | split: '@'
+        assign font_url = link_data | first | strip_newlines
+        assign weight = link_data | last
+        assign font_type = font_url | split: '.' | last
+        if font_type contains '?v='
+          assign font_type = font_type | split: '?v=' | first
+        endif
+      %}
+    {%- style -%}
+      @font-face {
+        font-family: body-custom-font;
+        font-weight: {{- weight -}};
+        src: url({{- font_url -}});
+        font-display: swap;
+      }
+    {%- endstyle -%} 
+    {%- endfor -%}
+    {%- style -%}
+      :root {  
+        {%- if settings.body_custom_font != blank or settings.alt_custom_font != blank -%}
+          --body-font: body-custom-font;
+          --alt-font: body-custom-font;
+        {%- else -%}
+          --body-font: {{ settings.body_shopify_font.family }}, {{ settings.body_shopify_font.fallback_families }};
+          --alt-font: {{ settings.alt_shopify_font.family }}, {{ settings.alt_shopify_font.fallback_families }};
+        {%- endif -%}
+    {%- endstyle -%}
+  {%- else -%}
+    {%- if settings.use_body_font == 'custom' -%}
+      {%- assign custom_fonts = settings.body_custom_font | newline_to_br | split: '<br />' -%}
+      {%- for link in custom_fonts -%}
+        {% liquid
+          assign link_data = link | split: '@'
+          assign font_url = link_data | first | strip_newlines
+          assign weight = link_data | last
+          assign font_type = font_url | split: '.' | last
+          if font_type contains '?v='
+            assign font_type = font_type | split: '?v=' | first
+          endif
+        %}
+      {%- style -%}
+        @font-face {
+          font-family: body-custom-font;
+          font-weight: {{- weight -}};
+          src: url({{- font_url -}});
+          font-display: swap;
+        }
+      {%- endstyle -%} 
+      {%- endfor -%}
+      {%- style -%}
+        :root {
+          {%- if settings.body_custom_font != blank -%} 
+            --body-font: body-custom-font;
+          {%- else -%}
+            --body-font: {{ settings.body_shopify_font.family }}, {{ settings.body_shopify_font.fallback_families }};
+          {%- endif -%}
+        }
+      {%- endstyle -%}
+    {%- endif -%}
+    {%- if settings.use_alt_font == 'custom' -%}
+      {%- assign alt_custom_fonts = settings.alt_custom_font | newline_to_br | split: '<br />' -%}
+      {%- for alt_link in alt_custom_fonts -%}
+        {% liquid
+          assign alt_link_data = alt_link | split: '@'
+          assign alt_font_url = alt_link_data | first | strip_newlines
+          assign alt_weight = alt_link_data | last
+          assign alt_font_type = alt_font_url | split: '.' | last
+          if alt_font_type contains '?v='
+            assign alt_font_type = alt_font_type | split: '?v=' | first
+          endif
+        %}
+        {%- style -%}
+          @font-face {
+            font-family: alt-custom-font;
+            font-weight: {{- alt_weight -}};
+            src: url({{- alt_font_url -}});
+            font-display: swap;
+          }
+        {%- endstyle -%}
+      {%- endfor -%}
+      {%- style -%}
+        :root {
+          {%- if settings.alt_custom_font != blank -%}
+            --alt-font: alt-custom-font;
+          {%- else -%}
+            --alt-font: --alt-font: {{ settings.alt_shopify_font.family }}, {{ settings.alt_shopify_font.fallback_families }};;
+          {%- endif -%}
+        }
+      {%- endstyle -%}    
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}

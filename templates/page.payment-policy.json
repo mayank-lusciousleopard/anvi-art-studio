@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container_type": "container",
+        "banner_title_size": "h-3",
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "title_uppercase": false,
+        "border_top": true,
+        "border_bottom": false,
+        "hide_breadcrumb": true,
+        "show_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "content_block_nAw839": {
+      "type": "content-block",
+      "blocks": {
+        "block_MfJVmE": {
+          "type": "block",
+          "settings": {
+            "block_title": "",
+            "block_sub_title": "",
+            "block_description": "<p><strong>Payment Policy<\/strong><br\/>Anvi Art Studio supports the following payment options:<br\/>1. Credit Card<br\/>2. Debit Card<br\/>3. Net banking<br\/>4. Wallets\/UPI<br\/>5. Cash on Delivery<\/p><p>There are no hidden charges. You pay only the amount that you see in your order summary at the time of checkout.<\/p><p>If you see any charges on your credit\/debit card for purchases made on anviartstudio.com, but you have never created an account or signed up, please check with your family members or business colleagues authorized to make purchases on your behalf. If you're still unable to recognize the charge, please report the unauthorized purchase within 14 days of the transaction so that we can look into it. Please email us at support@anviartstudio.com.<\/p><p>In case of a payment failure, please retry to ensure that information passed on to the payment gateway is accurate i.e. account details, billing address, password (for net banking), UPI ID, etc. Kindly also check if your Internet connection has been disrupted in the process.<\/p><p>If your account has been debited after a payment failure, it is normally rolled back to your account within 7 business days. You can email us with your order number for any clarification on the same.<\/p><p><strong>Cancellation of Order<\/strong><br\/>We do not accept cancellations once the order is paid\/confirmed.<br\/>In case the item you have ordered has been shipped but has not yet been delivered to you, you may still cancel the order online. Your refund will be processed once we receive the originally ordered item back from the courier, courier charges and transaction fees will be deducted from the total in this case.<\/p><p>You cannot cancel the order if it is delivered to you, in such case you need to follow the process of returning the product.<\/p>",
+            "column_width": "6",
+            "heading_alignment": "start",
+            "button_style": "btn-black",
+            "button_size": "btn-small",
+            "btn_radius": 0,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_MfJVmE"
+      ],
+      "custom_css": [
+        ".col-md-6.text-start.content-box {width: 100%; max-width: 65ch; margin: 0 auto;}"
+      ],
+      "settings": {
+        "container_type": "w-100 overflow-hidden",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "content_block_nAw839"
+  ]
+}

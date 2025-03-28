@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container_type": "container",
+        "show_mobile": true,
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "border_top": true,
+        "border_bottom": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

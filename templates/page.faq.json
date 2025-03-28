@@ -1,0 +1,440 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "disabled": true,
+      "settings": {
+        "page_title_style": "style-1",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": true,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": false,
+        "description_width": 25,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": ""
+      }
+    },
+    "164975090466eb7125": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "show_content_container": true,
+        "column_width": "6",
+        "hide_image": false,
+        "block_heading": "We believe in quality service and customer support",
+        "block_sub_heading": "We are happy to help you",
+        "block_description": "<p>Lorem ipsum dolor consectetur adipiscing donec pellentesque varius suscipit purus augue varius felis volutpat tortor. Proin sodales sollicitudin dignissim. Mauris sapien congue risus ullamcorper.<\/p>",
+        "column_width1": "5",
+        "hide_content": false,
+        "button_style": "btn-black",
+        "button_size": "btn-small",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "Explore question",
+        "btn_link": "#faq",
+        "counter_title1": "",
+        "counter_sub_title1": "",
+        "counter_title2": "",
+        "counter_sub_title2": "",
+        "counter_title3": "",
+        "counter_sub_title3": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 45,
+        "sub_heading_size": 20,
+        "sub_heading_line_height": 34,
+        "subheading_letter_spacing": 0,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "main": {
+      "type": "faq",
+      "blocks": {
+        "3676c0f9-b811-458c-8362-90358d37a7d7": {
+          "type": "faq-item",
+          "settings": {
+            "question": "Does aesthesy ship worldwide?",
+            "answer": "<p>Anvi Art Studio offers free shipping pan India, worldwide shipping is done on request on a prepaid basis and it is extra chargeable. Connect with our team over WhatsApp - 9412088880 for more.<br\/><\/p>",
+            "open": false
+          }
+        },
+        "faq_item_Ww7TVG": {
+          "type": "faq-item",
+          "settings": {
+            "question": "When will my order ship?",
+            "answer": "<p>Most artwork orders at our studio is shipped within 24-48 hours and get delivered within 7-10 working days pan-India. All products are made new upon order to deliver a mesmerising shopping experience for our clients. <\/p>",
+            "open": false
+          }
+        },
+        "faq_item_GgaiqY": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What payment options do you accept?",
+            "answer": "<p>We accept virtually all kinds of payment methods. You can pay using various methods such as Cash on Delivery, Payment Wallets, UPI, or your preferred credit\/debit card. We appreciate your preferred payment method just as much as we appreciate your choice to shop with us.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_KcyaJk": {
+          "type": "faq-item",
+          "settings": {
+            "question": "What is your Cancellation\/Return Policy?",
+            "answer": "<p>Since we make all our canvas prints on order, unless there is a defect\/damage which we are responsible for, we do not accept any returns or exchanges. In the case of a defect\/damage, we promptly express ship a replacement product so order stress-free, and our products don’t break<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_TwhTc9": {
+          "type": "faq-item",
+          "settings": {
+            "question": "Can I get a Discount for a Bulk Purchase?",
+            "answer": "<p>Looking to make a bulk purchase, get in touch with our customer support team who would be more than happy to guide you while you pick your favourite wall art work and canvas prints.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_7LAyPz": {
+          "type": "faq-item",
+          "settings": {
+            "question": "Does the image on your site accurately represent what I will be sent?",
+            "answer": "<p>Absolutely! We recognize the value of a stress-free ordering process. You can be sure that the artwork you receive will match what is displayed on our website, even though some of the pictures of our paintings are computer-generated mockups intended to depict how the canvas paintings might look on a wall. We focus on maintaining the highest quality standards, ensuring that the delivered products are faithful to the representations on our site. With our commitment to accuracy and quality, you can order from us with total peace of mind, knowing that your purchase will be stress-free and true to your expectations.<\/p>",
+            "open": false
+          }
+        },
+        "faq_item_ryQwWK": {
+          "type": "faq-item",
+          "settings": {
+            "question": "How Can I Contact Support?",
+            "answer": "<p>Customer support hours are Monday-Saturday, 10 AM to 7 PM IST.<br\/>Please allow 1-2 business days for a response. Inquiries made after business hours will be replied to on the next business day<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "3676c0f9-b811-458c-8362-90358d37a7d7",
+        "faq_item_Ww7TVG",
+        "faq_item_GgaiqY",
+        "faq_item_KcyaJk",
+        "faq_item_TwhTc9",
+        "faq_item_7LAyPz",
+        "faq_item_ryQwWK"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "Frequently asked questions",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "inactive_icon": "feather-plus",
+        "active_icon": "feather-minus",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "#262626",
+        "section_sub_heading_color": "#262626",
+        "section_description_color": "",
+        "section_id": "faq",
+        "section_class_name": ""
+      }
+    },
+    "16497542189e15fa32": {
+      "type": "quick-action",
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "quick_content": "<p>Have you any question? <a href=\"\/pages\/contact\" title=\"Contact us\">We're ready to help.<\/a><\/p>",
+        "content_alignment": "center",
+        "button_style": "btn-black",
+        "button_size": "btn-very-small",
+        "btn_radius": 0,
+        "btn_border_width": 1,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "padding_top": "small-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "quick_content_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "1638426036b37512fa": {
+      "type": "instagram-feed",
+      "disabled": true,
+      "settings": {
+        "full_width_nogap": false,
+        "container_type": "container",
+        "show_content_container": true,
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "instagram_style": "style-2",
+        "label_text": "#Fashionstyle",
+        "insta_btn_link": "",
+        "instaType": "grid",
+        "footer_subheading": "<p>instagram<\/p>",
+        "count": 6,
+        "grid_limit_desktop": 4,
+        "grid_limit_mini_desktop": 4,
+        "grid_limit_tablet": 3,
+        "grid_limit_mobile": 2,
+        "grid_space": true,
+        "slide_per_view_desktop": 4,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 2,
+        "slide_per_view_mobile": 2,
+        "space_slide": 30,
+        "navigation": true,
+        "autoplay": true,
+        "loop": false,
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 0,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "#262626",
+        "section_sub_heading_color": "#262626",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    },
+    "1662459388adc450aa": {
+      "type": "shop-by-category",
+      "blocks": {
+        "a0e69e5d-b232-459d-b332-cb6eb1591390": {
+          "type": "collection",
+          "settings": {
+            "collection-item": "decorative-lamp",
+            "button_text": "Shop Collection"
+          }
+        },
+        "22f02eba-6c46-4140-ba50-6148140a9974": {
+          "type": "collection",
+          "settings": {
+            "collection-item": "bar-stools",
+            "button_text": "Shop Collection"
+          }
+        },
+        "2f389144-189a-4aed-913d-17147d3cd633": {
+          "type": "collection",
+          "settings": {
+            "collection-item": "best-sellers",
+            "button_text": "Shop Collection"
+          }
+        },
+        "9af04af4-30f4-4516-a764-cc3858480534": {
+          "type": "collection",
+          "settings": {
+            "collection-item": "new-arrivals",
+            "button_text": "Shop Collection"
+          }
+        },
+        "f528521f-6080-4544-be73-0c203411b0ca": {
+          "type": "collection",
+          "settings": {
+            "collection-item": "women",
+            "button_text": "Shop Collection"
+          }
+        }
+      },
+      "block_order": [
+        "a0e69e5d-b232-459d-b332-cb6eb1591390",
+        "22f02eba-6c46-4140-ba50-6148140a9974",
+        "2f389144-189a-4aed-913d-17147d3cd633",
+        "9af04af4-30f4-4516-a764-cc3858480534",
+        "f528521f-6080-4544-be73-0c203411b0ca"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "shop_by_category_style": "style-2",
+        "heading": "Decor collection",
+        "sub_heading": "<span class=\"text-line-bottom\">SHOP BY CATEGORIES<\/span>",
+        "description": "",
+        "title_style": "style-1",
+        "slide_per_view_desktop": 3,
+        "slide_per_view_mini_desktop": 3,
+        "slide_per_view_tablet": 2,
+        "slide_per_view_mobile": 1,
+        "transition_speed": "500",
+        "loop": false,
+        "autoplay": true,
+        "auto_speed_delay": "2500",
+        "use_default_section_typography": false,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 1,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "166246733036dd4174": {
+      "type": "lookbook-with-product",
+      "blocks": {
+        "166246733010ad068f-0": {
+          "type": "pin",
+          "settings": {
+            "x_pos": 27,
+            "y_pos": 37,
+            "pin_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "166246733010ad068f-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "Our lowest price",
+        "sub_heading": "<span class=\"text-line-bottom\">LIMITED TIME DEALS<\/span>",
+        "description": "",
+        "product_card": "top-with-pleated",
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 0,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "SHOP NOW",
+        "use_default_section_typography": true,
+        "section_heading_size": 32,
+        "heading_line_height": 55,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": "lookbook"
+      }
+    },
+    "166246825519aaf213": {
+      "type": "lookbook",
+      "blocks": {
+        "1662468255107f78c1-0": {
+          "type": "pin",
+          "settings": {
+            "x_pos": 50,
+            "y_pos": 50,
+            "pin_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662468255107f78c1-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 0,
+        "btn_border_width": 2,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "SHOP NOW",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": "lookbook"
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "164975090466eb7125",
+    "main",
+    "16497542189e15fa32",
+    "1638426036b37512fa",
+    "1662459388adc450aa",
+    "166246733036dd4174",
+    "166246825519aaf213"
+  ]
+}

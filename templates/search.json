@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "border_top": true,
+        "border_bottom": false,
+        "show_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "box_limit_desktop": 4,
+        "box_limit_mini_desktop": 3,
+        "box_limit_tablet": 2,
+        "box_limit_mobile": 2
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

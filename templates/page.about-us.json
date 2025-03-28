@@ -1,0 +1,592 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-1",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": false,
+        "description_width": 50,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": "rgba(0,0,0,0)",
+        "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-25T180413.881.png"
+      }
+    },
+    "1633946636ff228416": {
+      "type": "image-with-text",
+      "settings": {
+        "container_type": "container",
+        "show_content_container": true,
+        "image": "shopify:\/\/shop_images\/image_-_2025-02-25T181058.078.png",
+        "column_width": "6",
+        "hide_image": true,
+        "block_heading": "The Story Behind Anvi Art Studio",
+        "block_sub_heading": "",
+        "block_description": "<p>Every stroke of paint tells a story; mine began long before Anvi Art Studio came to life. My name is Pritam Barik, and as an artist, I have always found solace in colors, textures, and the ability of art to evoke emotions. My journey started with a simple passion—creating art that speaks to the soul. For years, I poured my heart into paintings that adorned the walls of my home and those of my close friends. Each artwork was more than just an image; it was an expression, a piece of a moment frozen in time. Soon, I realized that art shouldn’t just be admired—it should be accessible, affordable, and personal for everyone. That’s when Anvi Art Studio was born<\/p>",
+        "column_width1": "5",
+        "hide_content": true,
+        "button_style": "btn-black",
+        "button_size": "btn-large",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "feather-arrow-right",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "counter_title1": "",
+        "counter_sub_title1": "",
+        "counter_title2": "",
+        "counter_sub_title2": "",
+        "counter_title3": "",
+        "counter_sub_title3": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 0,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "rgba(0,0,0,0)",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "16639332164600da77": {
+      "type": "counter",
+      "blocks": {
+        "166393321674ffbb5f-0": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "counter_number": 99,
+            "counter_text": "Artists"
+          }
+        },
+        "166393321674ffbb5f-1": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "counter_number": 36,
+            "counter_text": "Awards gained"
+          }
+        },
+        "166393321674ffbb5f-2": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "counter_number": 2000,
+            "counter_text": "Happy Clients"
+          }
+        },
+        "166393321674ffbb5f-3": {
+          "type": "item",
+          "settings": {
+            "icon_name": "",
+            "counter_number": 10000,
+            "counter_text": "Great Designs"
+          }
+        }
+      },
+      "block_order": [
+        "166393321674ffbb5f-0",
+        "166393321674ffbb5f-1",
+        "166393321674ffbb5f-2",
+        "166393321674ffbb5f-3"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "show_border": false,
+        "show_plus_sign": true,
+        "show_icon": true,
+        "icon_option": "icon",
+        "image_size": 48,
+        "icon_font_size": 42,
+        "counter_limit_desktop": 4,
+        "counter_limit_mini_desktop": 4,
+        "counter_limit_tablet": 2,
+        "counter_limit_mobile": 2,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "medium-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "16641643466b1e2513": {
+      "type": "image-with-text-5",
+      "blocks": {
+        "content_with_image_k6wqUK": {
+          "type": "content_with_image",
+          "settings": {
+            "content_sub_title": "",
+            "content_description": "<h4>Bringing Digital Art to Life<\/h4>\n<p>At Anvi Art Studio, we embrace the power of digital painting, a modern approach that blends artistic creativity with cutting-edge technology. Digital art allows us to create highly detailed, vibrant, and unique designs that are impossible with traditional methods alone.\n<\/p>",
+            "content_sub_title_color": "",
+            "content_with_image_column_width": "3"
+          }
+        },
+        "24a29253-974c-4ed2-9f1c-8ccac1d33fd4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_-_2025-02-25T182842.533.png",
+            "image_column_width": "4"
+          }
+        },
+        "d7d5f2d1-1ee1-4139-98da-9ce442346740": {
+          "type": "content_with_image",
+          "settings": {
+            "content_sub_title": "",
+            "content_description": "<p>For home decor enthusiasts, digital art is a game-changer. It offers:  <br>\n<strong>Precision &amp; Versatility:<\/strong> Digital paintings capture intricate details, vivid colors, and seamless textures, making them a perfect fit for any interior. <br>\n<strong>Durability &amp; Quality:<\/strong> Unlike traditional paintings that may fade over time, digital artworks maintain their brilliance and sharpness for years. <br>\n<strong>Customization &amp; Variety:<\/strong> From minimalist designs to bold, statement pieces, digital art allows endless possibilities tailored to your style.<br> \n<strong>Eco-Friendly Approach:<\/strong> Digital creation minimizes material waste, making it a sustainable choice for art lovers who care about the environment.\n<\/p>",
+            "content_sub_title_color": "",
+            "content_with_image_column_width": "4"
+          }
+        }
+      },
+      "block_order": [
+        "content_with_image_k6wqUK",
+        "24a29253-974c-4ed2-9f1c-8ccac1d33fd4",
+        "d7d5f2d1-1ee1-4139-98da-9ce442346740"
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 0,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "pb-0",
+        "section_show": true,
+        "section_bg_color": "#eae0d0",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "16642517235204225f": {
+      "type": "client-logo",
+      "blocks": {
+        "1664251723818b8c49-0": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify:\/\/shop_images\/image_-_2025-02-25T183120.800.png",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "1664251723818b8c49-1": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify:\/\/shop_images\/image_-_2025-02-25T183136.513.png",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "1664251723818b8c49-2": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify:\/\/shop_images\/image_-_2025-02-25T183156.455.png",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "1664251723818b8c49-3": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify:\/\/shop_images\/image_-_2025-02-25T183335.321.png",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "a92714d9-b37c-4dc6-95ab-40487c244424": {
+          "type": "logo",
+          "settings": {
+            "client_image": "shopify:\/\/shop_images\/image_-_2025-02-25T183353.168.png",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "1664251723818b8c49-0",
+        "1664251723818b8c49-1",
+        "1664251723818b8c49-2",
+        "1664251723818b8c49-3",
+        "a92714d9-b37c-4dc6-95ab-40487c244424"
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "brand_type": "grid",
+        "logo_limit_desktop": 5,
+        "logo_limit_mini_desktop": 5,
+        "logo_limit_tablet": 3,
+        "logo_limit_mobile": 2,
+        "slide_per_view_desktop": 5,
+        "slide_per_view_mini_desktop": 4,
+        "slide_per_view_tablet": 3,
+        "slide_per_view_mobile": 1,
+        "space_slide": 15,
+        "show_magic_cursor": false,
+        "magic_cursor_color_scheme": "base",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "#eae0d0",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": "border-bottom-left-right-radius"
+      }
+    },
+    "16642519982875441b": {
+      "type": "team-member",
+      "blocks": {
+        "1664251998a687f9f9-0": {
+          "type": "member",
+          "settings": {
+            "member_name": "Jeremy dupont",
+            "member_designation": "Director"
+          }
+        },
+        "1664251998a687f9f9-1": {
+          "type": "member",
+          "settings": {
+            "member_name": "Matthew taylor",
+            "member_designation": "Decor artist"
+          }
+        },
+        "1664251998a687f9f9-2": {
+          "type": "member",
+          "settings": {
+            "member_name": "Herman miller",
+            "member_designation": "Decor artist"
+          }
+        },
+        "1664251998a687f9f9-3": {
+          "type": "member",
+          "settings": {
+            "member_name": "Johncy parker",
+            "member_designation": "Consultant"
+          }
+        }
+      },
+      "block_order": [
+        "1664251998a687f9f9-0",
+        "1664251998a687f9f9-1",
+        "1664251998a687f9f9-2",
+        "1664251998a687f9f9-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_type": "container",
+        "heading": "Meet the team",
+        "sub_heading": "COMMITTED PEOPLE",
+        "description": "",
+        "title_style": "style-1",
+        "logo_limit_desktop": 4,
+        "logo_limit_mini_desktop": 4,
+        "logo_limit_tablet": 2,
+        "logo_limit_mobile": 1,
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "shop_banner_heGLi8": {
+      "type": "shop-banner",
+      "custom_css": [
+        ".rotate-text {border-bottom: none;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "banner_image": "shopify:\/\/shop_images\/image_-_2025-02-25T121459.624.png",
+        "title": "Our Mission: Art That Speaks to You",
+        "rotate_text": "DESIGNER COLLECTION",
+        "content": "At Anvi Art Studio, we believe that walls are more than just barriers; they are blank canvases waiting to be transformed. Whether it’s a striking canvas print, an inspiring poster, or a soothing artwork, our pieces are designed to elevate your space and reflect your personality. <br>\nEach artwork in our collection is crafted with a deep sense of creativity and emotion, ensuring that when you bring an Anvi Art Studio piece into your home, you are not just decorating—you are telling your own story",
+        "button_style": "btn-black",
+        "button_size": "btn-medium",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "feather-arrow-right order-2 right-icon",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "use_default_section_typography": false,
+        "section_heading_size": 55,
+        "heading_line_height": 55,
+        "sub_heading_size": 15,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 1,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "image_with_text_hHTDG7": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media screen and (min-width: 992px) {.row.align-items-center.justify-content-center.justify-content-lg-start .content-wrap.text-center.text-lg-start {order: -1; }}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "show_content_container": true,
+        "image": "shopify:\/\/shop_images\/image_-_2025-03-26T175723.533.png",
+        "column_width": "6",
+        "hide_image": true,
+        "block_heading": "What Makes Us Different?",
+        "block_sub_heading": "",
+        "block_description": "<ul><li>Artist-Driven: Unlike mass-produced art, every piece is designed with an artist’s vision, blending originality with aesthetic appeal.<\/li><li>Premium Quality: We use high-quality materials to ensure durability, vibrant colors, and a luxurious feel in every print.<\/li><li>Inspired by Life & Culture: Our collections are not just trends; they are inspired by emotions, nature, cultures, and stories that resonate.<\/li><li>Made for Every Space: From modern homes to cozy corners, our art complements various styles, making your space feel uniquely yours.<\/li><\/ul>",
+        "column_width1": "6",
+        "hide_content": true,
+        "button_style": "btn-black",
+        "button_size": "btn-large",
+        "btn_radius": 4,
+        "btn_border_width": 2,
+        "btn_icon_class": "feather-arrow-right",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "counter_title1": "",
+        "counter_sub_title1": "",
+        "counter_title2": "",
+        "counter_sub_title2": "",
+        "counter_title3": "",
+        "counter_sub_title3": "",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 50,
+        "sub_heading_size": 14,
+        "sub_heading_line_height": 24,
+        "subheading_letter_spacing": 0,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "small-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "rgba(0,0,0,0)",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "content_block_U8pXNm": {
+      "type": "content-block",
+      "blocks": {
+        "block_ngUTnp": {
+          "type": "block",
+          "settings": {
+            "block_title": "Join Our Art Journey",
+            "block_sub_title": "",
+            "block_description": "<p>Anvi Art Studio is more than just a business; it’s a community of art lovers who appreciate creativity in its finest form. Whether you’re looking to add a statement piece to your living room or searching for the perfect gift, we invite you to explore our collection and find the art that speaks to you. Let’s turn your walls into a masterpiece—one artwork at a time.<\/p>",
+            "column_width": "12",
+            "heading_alignment": "start",
+            "button_style": "btn-black",
+            "button_size": "btn-small",
+            "btn_radius": 0,
+            "btn_border_width": 2,
+            "btn_icon_class": "",
+            "icon_position": "right-icon",
+            "btn_text": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_ngUTnp"
+      ],
+      "settings": {
+        "container_type": "container",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "very-small-section-top",
+        "padding_bottom": "very-small-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "icon_with_text_T4kJjy": {
+      "type": "icon-with-text",
+      "blocks": {
+        "item_G7MCY4": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125217.746.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Proudly Made In India",
+            "box_sub_heading": "<p>Handcrafted In India For the World<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_ftAFQB": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125241.988.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Trusted By Customers",
+            "box_sub_heading": "<p>Thousands of Happy Customers Worldwide<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_cgpPzp": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T125316.632.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "Easy Returns",
+            "box_sub_heading": "<p>Easy 7 Days Return Policy<\/p>",
+            "heading_link": ""
+          }
+        },
+        "item_FXfiKc": {
+          "type": "item",
+          "settings": {
+            "image_icon": "shopify:\/\/shop_images\/image_-_2025-02-25T185127.363.png",
+            "icon_name": "bi bi-box-seam",
+            "box_heading": "24 \/ 7 Support",
+            "box_sub_heading": "<p>Dedicated support<\/p>",
+            "heading_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_G7MCY4",
+        "item_ftAFQB",
+        "item_cgpPzp",
+        "item_FXfiKc"
+      ],
+      "custom_css": [
+        ".featurebox .feature-box-title {font-weight: 600;}",
+        ".featurebox .feature-box-sub-title p {font-size: 13px;}"
+      ],
+      "settings": {
+        "container_type": "container",
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "icon_with_text_styles": "left-icon",
+        "content_alignment": "start",
+        "title_font_size": 18,
+        "title_line_height": 26,
+        "title_gap": 0,
+        "sub_title_width": 100,
+        "show_icon": true,
+        "icon_option": "image",
+        "image_size": 75,
+        "icon_font_size": 42,
+        "icon_limit_desktop": 4,
+        "icon_limit_mini_desktop": 4,
+        "icon_limit_tablet": 3,
+        "icon_limit_mobile": 2,
+        "icon_color": "",
+        "text_color": "#000000",
+        "small_text_color": "#484848",
+        "use_default_section_typography": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom",
+        "heading_alignment": "center",
+        "section_show": true,
+        "section_bg_color": "#ede9dd",
+        "section_gradient": "",
+        "section_heading_color": "",
+        "section_sub_heading_color": "",
+        "section_description_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "1633946636ff228416",
+    "16639332164600da77",
+    "16641643466b1e2513",
+    "16642517235204225f",
+    "16642519982875441b",
+    "shop_banner_heGLi8",
+    "image_with_text_hHTDG7",
+    "content_block_U8pXNm",
+    "icon_with_text_T4kJjy"
+  ]
+}

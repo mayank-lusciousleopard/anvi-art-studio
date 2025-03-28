@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-2",
+        "show_full_width": true,
+        "show_banner_image": true,
+        "hide_breadcrumb": false,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": false,
+        "description_width": 25,
+        "border_top": false,
+        "border_bottom": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": "rgba(0,0,0,0)",
+        "banner_image": "{{ collection.image }}"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "bd82edae-d5e7-4f3e-bbaf-17ebd954668b": {
+          "type": "product-slider",
+          "disabled": true,
+          "settings": {
+            "block_title": "Popular product",
+            "collection_block": "clay-pots"
+          }
+        },
+        "c95d2e09-9024-4e9f-b442-ba68001e5354": {
+          "type": "sidebar-banner",
+          "settings": {
+            "btn_link": "shopify:\/\/collections\/living-room"
+          }
+        }
+      },
+      "block_order": [
+        "bd82edae-d5e7-4f3e-bbaf-17ebd954668b",
+        "c95d2e09-9024-4e9f-b442-ba68001e5354"
+      ],
+      "settings": {
+        "container_type": "container-fluid",
+        "pagination_style": "paginate",
+        "enable_sorting": true,
+        "show_product_options": true,
+        "show_grid_bar": true,
+        "enable_sidebar": true,
+        "products_per_page": 20,
+        "sidebar_position": "left",
+        "filter_type": "simple",
+        "collection_list_title": "Collection",
+        "menu": "collections",
+        "show_tag": false,
+        "tag_type": "all",
+        "tag_list": "",
+        "padding_top": "small-section-top",
+        "padding_bottom": "small-section-bottom"
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "product-grid"
+  ]
+}

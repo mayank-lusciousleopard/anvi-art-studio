@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "page-title": {
+      "type": "page-title",
+      "settings": {
+        "page_title_style": "style-1",
+        "show_full_width": false,
+        "show_banner_image": true,
+        "hide_breadcrumb": true,
+        "enable_parallax": false,
+        "title_uppercase": false,
+        "show_description": false,
+        "banner_title_size": "h-2",
+        "breadcrumb_position": "on-collection-banner",
+        "banner_height": "small-screen",
+        "content_alignment": "center",
+        "content_color_style": "light-style",
+        "banner_bg_color": "",
+        "banner_image": "shopify:\/\/shop_images\/demo-fashion-title-02.jpg"
+      }
+    },
+    "163401843886d67baa": {
+      "type": "image-with-text-2",
+      "blocks": {
+        "fe1f2b97-cc0e-4008-878d-ece0d868a9ed": {
+          "type": "list-item",
+          "settings": {
+            "title": "Fast delivery same day",
+            "description": "<p>Lorem ipsum is simply dummy text printing and typesetting industry industry's standard.<\/p>"
+          }
+        },
+        "46fdd79a-90fd-4deb-b9ab-c0056c153d82": {
+          "type": "list-item",
+          "settings": {
+            "title": "Friendly customer support",
+            "description": "<p>Lorem ipsum is simply dummy text printing and typesetting industry industry's standard.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fe1f2b97-cc0e-4008-878d-ece0d868a9ed",
+        "46fdd79a-90fd-4deb-b9ab-c0056c153d82"
+      ],
+      "settings": {
+        "container_type": "container",
+        "image": "shopify:\/\/shop_images\/demo-fashion-services-img-01.jpg",
+        "support_days": "24\/7",
+        "support_title": "Customer support",
+        "support_phone": "0222 8899900",
+        "column_width": "6",
+        "hide_image_block": false,
+        "block_heading": "World's best customer relation services",
+        "block_sub_heading": "Elegant and luxury services",
+        "block_description": "<p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor incididunt labore dolore magna.<\/p>",
+        "hide_content_block": false,
+        "column_width1": "6",
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "padding_top": "medium-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "section_bg_color": "",
+        "section_heading_color": "#232323",
+        "section_sub_heading_color": "#232323",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "16496666595ae36201": {
+      "type": "quick-action",
+      "settings": {
+        "container_type": "container",
+        "quick_content": "<p>Have you any question? <a href=\"\/pages\/contact\" title=\"Contact us\">We're ready to help.<\/a><\/p>",
+        "content_alignment": "center",
+        "button_style": "btn-black",
+        "button_size": "btn-very-small",
+        "btn_radius": 0,
+        "btn_border_width": 1,
+        "btn_icon_class": "",
+        "icon_position": "right-icon",
+        "btn_text": "",
+        "btn_link": "",
+        "padding_top": "small-section-top",
+        "padding_bottom": "medium-section-bottom",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "quick_content_color": "",
+        "section_id": "",
+        "section_class_name": ""
+      }
+    },
+    "16340297051934dcb3": {
+      "type": "instagram-feed",
+      "settings": {
+        "container_type": "container",
+        "show_content_container": true,
+        "heading": "",
+        "sub_heading": "",
+        "description": "",
+        "title_style": "style-1",
+        "instagram_style": "style-1",
+        "label_text": "#Fashionstyle",
+        "footer_subheading": "<p>instagram<\/p>",
+        "count": 6,
+        "grid_space": true,
+        "section_heading_size": 45,
+        "heading_line_height": 55,
+        "sub_heading_size": 24,
+        "sub_heading_line_height": 30,
+        "subheading_letter_spacing": 0,
+        "padding_top": "pt-0",
+        "padding_bottom": "pb-0",
+        "heading_alignment": "center",
+        "section_show": true,
+        "background_position": "cover-background",
+        "section_bg_color": "",
+        "section_heading_color": "#232323",
+        "section_sub_heading_color": "#232323",
+        "section_description_color": "",
+        "element_id": "",
+        "section_class_name": ""
+      }
+    }
+  },
+  "order": [
+    "page-title",
+    "163401843886d67baa",
+    "16496666595ae36201",
+    "16340297051934dcb3"
+  ]
+}

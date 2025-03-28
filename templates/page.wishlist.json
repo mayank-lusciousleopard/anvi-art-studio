@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "content_alignment": "center",
+        "show_pagetitle": true,
+        "border_top": true,
+        "border_bottom": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "wishlist-items": {
+      "type": "wishlist-items",
+      "settings": {}
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "wishlist-items"
+  ]
+}
